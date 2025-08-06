@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+
+{# Add Font Awesome CDN #}
+{% block extrahead %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+{% endblock %}
+
+{# Remove the next/prev buttons from the top navbar #}
+{% block next_prev %}{% endblock %}
+
+{# Override site_name block to display logo instead of text #}
+{% block site_name %}
+    {% if config.theme.logo %}
+        <img src="{{ base_url }}/{{ config.theme.logo }}" alt="{{ config.site_name }}" style="height: 40px; margin-right: 10px;">
+    {% else %}
+        {{ config.site_name }}
+    {% endif %}
+{% endblock %}
+
+{# Add the next/prev buttons to the footer in a GitBook style #}
+{% block footer %}
+    <div class="gitbook-nav-wrapper">
+        <div class="gitbook-nav-grid">
+            {% if page.previous_page %}
+                <a href="{{ page.previous_page.url | url }}" class="gitbook-nav-button prev">
+                    <span class="gitbook-nav-label">Previous</span>
+                    <span class="gitbook-nav-title">{{ page.previous_page.title }}</span>
+                </a>
+            {% else %}
+                <div></div> {# Empty div to maintain grid structure #}
+            {% endif %}
+
+            {% if page.next_page %}
+                <a href="{{ page.next_page.url | url }}" class="gitbook-nav-button next">
+                    <span class="gitbook-nav-label">Next</span>
+                    <span class="gitbook-nav-title">{{ page.next_page.title }}</span>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+
+    <div class="social-icons" style="text-align: center; margin-top: 20px; padding-bottom: 20px;">
+        <a href="https://www.elysiumx.io" target="_blank" style="margin: 0 10px; color: var(--solana-accent); font-size: 24px;">
+            <i class="fas fa-globe"></i>
+        </a>
+        <a href="https://t.me/elysiumx" target="_blank" style="margin: 0 10px; color: var(--solana-accent); font-size: 24px;">
+            <i class="fab fa-telegram"></i>
+        </a>
+        <a href="https://discord.gg/elysiumx" target="_blank" style="margin: 0 10px; color: var(--solana-accent); font-size: 24px;">
+            <i class="fab fa-discord"></i>
+        </a>
+        <a href="https://github.com/elysiumx" target="_blank" style="margin: 0 10px; color: var(--solana-accent); font-size: 24px;">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+
+    <p class="text-xs">© 2025 ElysiumX. All rights reserved.</p>
+    <p class="text-xs"><a href="https://docs.elysiumx.io/terms-of-service" target="_blank" class="underline transition-colors hover:text-dark-accent">Terms of Service</a></p>
+{% endblock %}

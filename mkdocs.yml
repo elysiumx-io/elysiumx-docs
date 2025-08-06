@@ -8,10 +8,7 @@ extra_css:
 nav:
   - Home: index.md
   - Whitepaper: whitepaper.md
-  - Tokenomics: tokenomics-deep-dive.md
   - Roadmap: roadmap-details.md
-  - Governance: governance-guide.md
-  - Ecosystem & Services: ecosystem-usage-guides.md
   - Security: security-measures.md
   - FAQ: faq.md
   - Getting Started: getting-started.md

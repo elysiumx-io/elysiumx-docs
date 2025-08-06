@@ -17,6 +17,7 @@ body {
     background-color: var(--solana-dark-bg) !important;
     color: #eff1f2b3 !important;
     font-family: 'Almarai', sans-serif !important;
+    font-size: 1.125rem !important; /* Increased font size for better readability, applied to body */
 }
 
 p {
@@ -340,3 +341,31 @@ hr {
     font-family: 'Funnel Display', sans-serif !important;
 }
 
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background-color: #33363d; /* Slightly lighter background */
+    border: 1px solid #33363d; /* Solid border with same color as background */
+    border-radius: 0; /* No rounded corners */
+    display: block; /* Make the table a block-level element */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent table content from wrapping */
+}
+
+table th, table td {
+    padding: 0.8rem;
+    text-align: left;
+    border: 1px solid #444750; /* Lighter border for cells */
+    white-space: normal; /* Allow text to wrap within cells */
+}
+
+table th {
+    background-color: #3a3d44; /* Slightly darker background for headers */
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #30333a; /* Alternate row background for readability */
+}

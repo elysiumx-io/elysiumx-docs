@@ -125,6 +125,10 @@ strong {
     margin-bottom: 1.5rem; /* Adjust as needed */
 }
 
+.col-md-9[role="main"] a {
+    text-decoration: none !important;
+}
+
 /* Remove bottom margin from the last child to prevent extra space */
 .col-md-9[role="main"] > *:last-child {
     margin-bottom: 0;
@@ -147,7 +151,7 @@ footer p {
 
 footer a {
     color: var(--solana-accent) !important;
-    text-decoration: underline !important;
+    text-decoration: none !important;
     transition: color 0.3s ease !important;
 }
 

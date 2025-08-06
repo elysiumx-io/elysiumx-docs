@@ -18,6 +18,7 @@ body {
     color: #eff1f2b3 !important;
     font-family: 'Almarai', sans-serif !important;
     font-size: 1.125rem !important; /* Increased font size for better readability, applied to body */
+    font-weight: 300 !important;
 }
 
 p {
@@ -119,8 +120,9 @@ a:hover {
 .col-md-9[role="main"] p,
 .col-md-9[role="main"] ul,
 .col-md-9[role="main"] ol,
-.col-md-9[role="main"] table {
-    margin-bottom: 2rem; /* Adjust as needed */
+.col-md-9[role="main"] table,
+strong {
+    margin-bottom: 1.5rem; /* Adjust as needed */
 }
 
 /* Remove bottom margin from the last child to prevent extra space */

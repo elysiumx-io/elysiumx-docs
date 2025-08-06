@@ -1,15 +1,15 @@
 # Community Channels
 
-Terhubung dengan komunitas ElysiumX melalui saluran resmi kami.
+Connect with the ElysiumX community through our official channels.
 
-## Saluran Komunikasi Resmi
-- **Discord:** [Tautan Discord Anda]
-- **Telegram:** [Tautan Telegram Anda]
-- **Twitter:** [Tautan Twitter Anda]
-- **Forum/Reddit:** [Tautan Forum/Reddit Anda]
+## Official Communication Channels
+- **Discord:** [Your Discord Link Here]
+- **Telegram:** [Your Telegram Link Here]
+- **Twitter:** [Your Twitter Link Here]
+- **Forum/Reddit:** [Your Forum/Reddit Link Here]
 
-## Cara Berkontribusi
-Informasi tentang bagaimana anggota komunitas dapat berkontribusi pada proyek, baik melalui pengembangan, promosi, atau dukungan.
+## How to Contribute
+Information on how community members can contribute to the project, whether through development, promotion, or support.
 
-## Aturan Komunitas
-Pedoman untuk menjaga lingkungan komunitas yang positif dan konstruktif.
+## Community Rules
+Guidelines for maintaining a positive and constructive community environment.

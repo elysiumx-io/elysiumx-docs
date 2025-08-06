@@ -17,15 +17,3 @@ To contribute:
 4.  **Commit** your changes with a clear and concise message.
 5.  **Push** your changes to your forked repository.
 6.  **Open a Pull Request** to the `main` branch of this repository. We'll review your contributions and merge them as soon as possible!
-
-## 🔗 Quick Links
-
--   [Whitepaper](docs/whitepaper.md)
--   [Tokenomics](docs/tokenomics-deep-dive.md)
--   [Roadmap](docs/roadmap-details.md)
--   [Governance](docs/governance-guide.md)
--   [Ecosystem & Services](docs/ecosystem-usage-guides.md)
--   [Security](docs/security-measures.md)
--   [FAQ](docs/faq.md)
--   [Getting Started](docs/getting-started.md)
--   [Community](docs/community-channels.md)

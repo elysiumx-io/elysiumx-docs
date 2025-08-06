@@ -109,6 +109,25 @@ a:hover {
     /* box-shadow: var(--solana-shadow); */
 }
 
+/* Increase vertical spacing between main content elements */
+.col-md-9[role="main"] h1,
+.col-md-9[role="main"] h2,
+.col-md-9[role="main"] h3,
+.col-md-9[role="main"] h4,
+.col-md-9[role="main"] h5,
+.col-md-9[role="main"] h6,
+.col-md-9[role="main"] p,
+.col-md-9[role="main"] ul,
+.col-md-9[role="main"] ol,
+.col-md-9[role="main"] table {
+    margin-bottom: 2rem; /* Adjust as needed */
+}
+
+/* Remove bottom margin from the last child to prevent extra space */
+.col-md-9[role="main"] > *:last-child {
+    margin-bottom: 0;
+}
+
 footer {
     color: var(--solana-text) !important;
     border-top: none !important; /* Removed border-top */

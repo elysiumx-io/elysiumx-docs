@@ -8,7 +8,7 @@ ELY is designed to grant voting power, staking incentives, and access to exclusi
 
 - [Whitepaper](whitepaper.md)
 - [Explorer](https://solscan.io/token/YOUR_ELY_TOKEN_ADDRESS_HERE)
-- [Model Context Protocol](https://github.com/model-context-protocol)
+- [Model Context Protocol](https://github.com/elysiumx-io/elysiumx-mcp)
 
 ## Quick Links
 

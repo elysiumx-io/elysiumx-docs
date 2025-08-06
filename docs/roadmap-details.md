@@ -1,4 +1,4 @@
-# ROADMAP ELYSIUMX
+# Roadmap
 
 - **Q3 2025:** Launch presale & listing on Raydium/Orca/Uniswap
 - **Q4 2025:** Deploy smart contracts staking & rewards

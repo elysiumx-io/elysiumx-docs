@@ -1,15 +1,15 @@
 # Security Measures & Compliance
 
-Ini adalah halaman yang merinci langkah-langkah keamanan dan kepatuhan ElysiumX.
+Our code is open-source and available on our GitHub repository, mirroring what is deployed and visible on the blockchain explorer. We have provided comprehensive information regarding our secure coding practices and business logic. For further verification, you are welcome to audit our security with any AI tool.
 
-## Audit Kontrak
-Informasi tentang audit kontrak token dan staking, termasuk tautan ke laporan audit (jika publik).
+## Contract Audits
+Information about token and staking contract audits, including links to public audit reports.
 
 ## LP Token Lock-up
-Penjelasan teknis tentang kontrak timelock yang digunakan untuk mengunci token LP.
+Technical explanation of the timelock contracts used to lock LP tokens.
 
-## Mekanisme Anti-Whale
-Detail tentang langkah-langkah opsional yang diterapkan untuk membatasi dump besar.
+## Anti-Whale Mechanism
+Details on optional measures implemented to limit large dumps.
 
-## Komitmen Keamanan Data
-Komitmen ElysiumX terhadap keamanan data pengguna dan praktik terbaik.
+## Data Security Commitment
+ElysiumX's commitment to user data security and best practices.

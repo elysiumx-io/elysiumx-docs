@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Whitepaper - My Solana Docs</title>
+        <title>Security - My Solana Docs</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/fontawesome.min.css" rel="stylesheet">
         <link href="../css/brands.min.css" rel="stylesheet">
@@ -44,13 +44,13 @@
                                 <a href=".." class="nav-link">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="./" class="nav-link active" aria-current="page">Whitepaper</a>
+                                <a href="../whitepaper/" class="nav-link">Whitepaper</a>
                             </li>
                             <li class="nav-item">
                                 <a href="../roadmap-details/" class="nav-link">Roadmap</a>
                             </li>
                             <li class="nav-item">
-                                <a href="../security-measures/" class="nav-link">Security</a>
+                                <a href="./" class="nav-link active" aria-current="page">Security</a>
                             </li>
                             <li class="nav-item">
                                 <a href="../faq/" class="nav-link">FAQ</a>
@@ -87,41 +87,21 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-bs-level="1"><a href="#elysiumx-ely-whitepaper" class="nav-link">ElysiumX (ELY) Whitepaper</a>
+            <li class="nav-item" data-bs-level="1"><a href="#security-measures-compliance" class="nav-link">Security Measures &amp; Compliance</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-bs-level="2"><a href="#1-introduction" class="nav-link">1. Introduction</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#2-vision-mission" class="nav-link">2. Vision &amp; Mission</a>
+            <li class="nav-item" data-bs-level="2"><a href="#contract-audits" class="nav-link">Contract Audits</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#3-token-details" class="nav-link">3. Token Details</a>
+            <li class="nav-item" data-bs-level="2"><a href="#lp-token-lock-up" class="nav-link">LP Token Lock-up</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#4-tokenomics" class="nav-link">4. Tokenomics</a>
+            <li class="nav-item" data-bs-level="2"><a href="#anti-whale-mechanism" class="nav-link">Anti-Whale Mechanism</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#5-roadmap" class="nav-link">5. Roadmap</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#6-governance" class="nav-link">6. Governance</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#7-ecosystem-services" class="nav-link">7. Ecosystem &amp; Services</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#8-security-compliance" class="nav-link">8. Security &amp; Compliance</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#9-conclusion" class="nav-link">9. Conclusion</a>
+            <li class="nav-item" data-bs-level="2"><a href="#data-security-commitment" class="nav-link">Data Security Commitment</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -132,123 +112,16 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="elysiumx-ely-whitepaper">ElysiumX (ELY) Whitepaper</h1>
-<p>Date: July 2025</p>
-<h2 id="1-introduction">1. Introduction</h2>
-<p>ElysiumX (ELY) is a governance token created by a community of enthusiasts and investors who share the goal of building an open, transparent, and collaborative DeFi ecosystem. Our objective is to provide a comprehensive infrastructure for:</p>
-<ul>
-<li>Decentralized Exchanges (DEX)</li>
-<li>Multi-chain Bridges</li>
-<li>Tokenized Asset Markets</li>
-<li>Liquidity Pools &amp; Farming</li>
-<li>Advanced Swap Tools</li>
-</ul>
-<p>ELY is designed to grant voting power, staking incentives, and access to exclusive community services.</p>
-<h2 id="2-vision-mission">2. Vision &amp; Mission</h2>
-<p><strong>Vision:</strong> Become the leading multichain DeFi hub in Europe and globally, breaking down entry barriers through participatory governance.</p>
-<p><strong>Mission:</strong> Build a sustainable ecosystem where each member:</p>
-<ul>
-<li>Contributes to open-source project governance.</li>
-<li>Is rewarded for staking and support activities.</li>
-<li>Accesses innovative DeFi services (swap, pool, lending, bridge) securely.</li>
-</ul>
-<h2 id="3-token-details">3. Token Details</h2>
-<ul>
-<li><strong>Name:</strong> ElysiumX</li>
-<li><strong>Symbol:</strong> ELY</li>
-<li><strong>Standard:</strong> SPL (Solana)</li>
-<li><strong>Decimals:</strong> 9</li>
-<li><strong>Total Supply:</strong> 120,000,000 ELY</li>
-</ul>
-<h2 id="4-tokenomics">4. Tokenomics</h2>
-<p>The 120M ELY distribution is as follows:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Category</th>
-<th style="text-align: left;">%</th>
-<th style="text-align: left;">Supply (ELY)</th>
-<th style="text-align: left;">Allocated Details</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">Liquidity Pool</td>
-<td style="text-align: left;">20.83%</td>
-<td style="text-align: left;">25,000,000</td>
-<td style="text-align: left;">Initial pool + refills (3× ELY)</td>
-</tr>
-<tr>
-<td style="text-align: left;">Presale (–30%)</td>
-<td style="text-align: left;">25%</td>
-<td style="text-align: left;">30,000,000</td>
-<td style="text-align: left;">300 USDT → 1,071,428 ELY @0.00028 USDT/ELY</td>
-</tr>
-<tr>
-<td style="text-align: left;">Staking &amp; Incentives</td>
-<td style="text-align: left;">25%</td>
-<td style="text-align: left;">30,000,000</td>
-<td style="text-align: left;">Cliff 6m; 12m vesting, 12×4.17M ELY/month</td>
-</tr>
-<tr>
-<td style="text-align: left;">Team &amp; Founders</td>
-<td style="text-align: left;">8.33%</td>
-<td style="text-align: left;">10,000,000</td>
-<td style="text-align: left;">Vesting 24m; cliff 12m</td>
-</tr>
-<tr>
-<td style="text-align: left;">Marketing &amp; Advisor</td>
-<td style="text-align: left;">8.33%</td>
-<td style="text-align: left;">10,000,000</td>
-<td style="text-align: left;">Vesting 12m</td>
-</tr>
-<tr>
-<td style="text-align: left;">Airdrop / Faucet</td>
-<td style="text-align: left;">4.17%</td>
-<td style="text-align: left;">5,000,000</td>
-<td style="text-align: left;">Giveaways, bounties, referrals</td>
-</tr>
-<tr>
-<td style="text-align: left;">Reserve Fund</td>
-<td style="text-align: left;">8.34%</td>
-<td style="text-align: left;">10,000,000</td>
-<td style="text-align: left;">Emergencies / scheduled burns</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Presale Mechanism:</strong> 30% discount</p>
-<h2 id="5-roadmap">5. Roadmap</h2>
-<ol>
-<li><strong>Q3 2025:</strong> Launch presale &amp; listing on Raydium/Orca</li>
-<li><strong>Q4 2025:</strong> Deploy smart contracts for staking &amp; monthly rewards</li>
-<li><strong>Q1 2026:</strong> Integrate DEX aggregator &amp; advanced pools</li>
-<li><strong>Q2 2026:</strong> Launch Web Digital Wallet</li>
-<li><strong>Q3 2026:</strong> Launch tokenized asset marketplace</li>
-<li><strong>Q4 2026:</strong> Full-featured DAO governance + institutional partnerships</li>
-</ol>
-<h2 id="6-governance">6. Governance</h2>
-<p>ELY holders:</p>
-<ul>
-<li><strong>Proposal Rights:</strong> any wallet with ≥ 1,000,000 ELY can create proposals</li>
-<li><strong>Voting:</strong> weight proportional to ELY staked</li>
-<li><strong>Treasury:</strong> transparent management of development funds</li>
-</ul>
-<h2 id="7-ecosystem-services">7. Ecosystem &amp; Services</h2>
-<ul>
-<li><strong>DEX &amp; Swap:</strong> integration with Raydium, Orca, and aggregators</li>
-<li><strong>Programmable Pools:</strong> support for custom incentives</li>
-<li><strong>Bridge:</strong> asset transfer among Solana, Ethereum, BSC</li>
-<li><strong>Asset Market:</strong> tokenization of real-world assets (real estate, commodities)</li>
-<li><strong>Staking:</strong> monthly rewards from a 50M ELY pool over 12 months</li>
-</ul>
-<h2 id="8-security-compliance">8. Security &amp; Compliance</h2>
-<ul>
-<li><strong>Audits:</strong> token contract and staking contracts</li>
-<li><strong>LP Token Lock-up:</strong> timelock contracts for LP tokens</li>
-<li><strong>Anti-Whale:</strong> optional measures to limit large dumps</li>
-</ul>
-<h2 id="9-conclusion">9. Conclusion</h2>
-<p>ElysiumX is more than a token: it's a collective project built on participatory governance and a comprehensive DeFi ecosystem. Join us, participate in decision-making, and lead ELY’s growth into new horizons!</p></div>
+<h1 id="security-measures-compliance">Security Measures &amp; Compliance</h1>
+<p>Our code is open-source and available on our GitHub repository, mirroring what is deployed and visible on the blockchain explorer. We have provided comprehensive information regarding our secure coding practices and business logic. For further verification, you are welcome to audit our security with any AI tool.</p>
+<h2 id="contract-audits">Contract Audits</h2>
+<p>Information about token and staking contract audits, including links to public audit reports.</p>
+<h2 id="lp-token-lock-up">LP Token Lock-up</h2>
+<p>Technical explanation of the timelock contracts used to lock LP tokens.</p>
+<h2 id="anti-whale-mechanism">Anti-Whale Mechanism</h2>
+<p>Details on optional measures implemented to limit large dumps.</p>
+<h2 id="data-security-commitment">Data Security Commitment</h2>
+<p>ElysiumX's commitment to user data security and best practices.</p></div>
             </div>
         </div>
 
@@ -256,16 +129,16 @@
     <div class="gitbook-nav-wrapper">
         <div class="gitbook-nav-grid">
             
-                <a href=".." class="gitbook-nav-button prev">
+                <a href="../roadmap-details/" class="gitbook-nav-button prev">
                     <span class="gitbook-nav-label">Previous</span>
-                    <span class="gitbook-nav-title">Home</span>
+                    <span class="gitbook-nav-title">Roadmap</span>
                 </a>
             
 
             
-                <a href="../roadmap-details/" class="gitbook-nav-button next">
+                <a href="../faq/" class="gitbook-nav-button next">
                     <span class="gitbook-nav-label">Next</span>
-                    <span class="gitbook-nav-title">Roadmap</span>
+                    <span class="gitbook-nav-title">FAQ</span>
                 </a>
             
         </div>

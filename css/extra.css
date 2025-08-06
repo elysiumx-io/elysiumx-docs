@@ -18,6 +18,7 @@ body {
     color: #eff1f2b3 !important;
     font-family: 'Almarai', sans-serif !important;
     font-size: 1.125rem !important; /* Increased font size for better readability, applied to body */
+    font-weight: 300 !important;
 }
 
 p {
@@ -107,6 +108,26 @@ a:hover {
     border-radius: 15px;
     /* border: 1px solid var(--solana-border); */
     /* box-shadow: var(--solana-shadow); */
+}
+
+/* Increase vertical spacing between main content elements */
+.col-md-9[role="main"] h1,
+.col-md-9[role="main"] h2,
+.col-md-9[role="main"] h3,
+.col-md-9[role="main"] h4,
+.col-md-9[role="main"] h5,
+.col-md-9[role="main"] h6,
+.col-md-9[role="main"] p,
+.col-md-9[role="main"] ul,
+.col-md-9[role="main"] ol,
+.col-md-9[role="main"] table,
+strong {
+    margin-bottom: 1.5rem; /* Adjust as needed */
+}
+
+/* Remove bottom margin from the last child to prevent extra space */
+.col-md-9[role="main"] > *:last-child {
+    margin-bottom: 0;
 }
 
 footer {

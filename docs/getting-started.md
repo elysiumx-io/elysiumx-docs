@@ -1,15 +1,15 @@
 # Getting Started with ElysiumX
 
-Panduan ini akan membantu Anda memulai perjalanan Anda dengan ElysiumX.
+This guide will help you begin your journey with ElysiumX.
 
-## 1. Membeli ELY
-Langkah-langkah untuk mendapatkan token ELY dari bursa atau presale.
+## 1. Acquiring ELY
+Steps to obtain ELY tokens from exchanges or presales.
 
-## 2. Menyiapkan Dompet
-Panduan untuk menyiapkan dompet Solana yang kompatibel (misalnya, Phantom, Solflare).
+## 2. Setting Up Your Wallet
+Guide to setting up a compatible Solana wallet (e.g., Phantom, Solflare).
 
-## 3. Berinteraksi dengan Ekosistem
-Langkah-langkah awal untuk menggunakan layanan dasar seperti swap atau staking.
+## 3. Interacting with the Ecosystem
+Initial steps to use basic services like swapping or staking.
 
-## 4. Bergabung dengan Komunitas
-Cara terhubung dengan komunitas ElysiumX.
+## 4. Joining the Community
+How to connect with the ElysiumX community.

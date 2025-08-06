@@ -1,4 +1,3 @@
-
 site_name: My Solana Docs
 theme:
     name: mkdocs
@@ -7,6 +6,13 @@ theme:
 extra_css:
     - css/extra.css
 nav:
-    - Home: index.md
-    - Whitepaper: whitepaper.md
-    - Page 2: page2.md
+  - Home: index.md
+  - Whitepaper: whitepaper.md
+  - Tokenomics: tokenomics-deep-dive.md
+  - Roadmap: roadmap-details.md
+  - Governance: governance-guide.md
+  - Ecosystem & Services: ecosystem-usage-guides.md
+  - Security: security-measures.md
+  - FAQ: faq.md
+  - Getting Started: getting-started.md
+  - Community: community-channels.md

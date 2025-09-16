@@ -44,12 +44,26 @@ The 120M ELY distribution is as follows:
 **Presale Mechanism:** 30% discount
 
 ## 5. Roadmap
-1.  **Q3 2025:** Launch presale & listing on Raydium/Orca
-2.  **Q4 2025:** Deploy smart contracts for staking & monthly rewards
-3.  **Q1 2026:** Integrate DEX aggregator & advanced pools
-4.  **Q2 2026:** Launch Web Digital Wallet
-5.  **Q3 2026:** Launch tokenized asset marketplace
-6.  **Q4 2026:** Full-featured DAO governance + institutional partnerships
+**Q3 2025**
+
+* Launch of Presale Phase 1 (Seed Round – Sept 17–19)
+* Launch of Presale Phase 2 (Dynamic Sale – Sept 20 → Until sold out)
+
+**Q4 2025**
+
+* DEX Listing on Raydium / Orca
+* Deployment of staking contracts + first reward cycle
+
+**Q1 2026**
+
+* Integration with DEX aggregators
+* Launch of official Wallet and Multi-chain Bridge
+
+**Q3 2026**
+
+* Launch of Asset Marketplace + NFT support
+* DAO Governance + Institutional Partnerships
+
 
 ## 6. Governance
 ELY holders:
